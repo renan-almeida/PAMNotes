@@ -7,9 +7,15 @@
     Shell.FlyoutBehavior="Disabled"
     Title="PAMNotes">
 
+    <TabBar>
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
+    <ShellContent
+        Title="Sobre"
+        ContentTemplate="{DataTemplate local:AboutPage}"
+        Route="About" />
+    </TabBar>
 </Shell>
